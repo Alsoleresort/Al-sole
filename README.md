@@ -21,13 +21,13 @@
 <body>
     <h1>Benvenuto alla nostra rete WiFi!</h1>
     <p>Per favore, segui la nostra pagina Instagram per accedere a Internet:</p>
-    <a id="follow-link" href="https://www.instagram.com/tuo_account/" target="_blank">
+    <a id="follow-link" href="https://www.instagram.com/alsoleresort_/" target="_blank">
         <button onclick="grantAccess()">Segui su Instagram</button>
     </a>
     <script>
         function grantAccess() {
             setTimeout(function() {
-                window.location.href = "http://www.google.com"; // URL di redirect dopo il clic
+                window.location.href = "https://www.instagram.com/alsoleresort_/"; // URL di redirect dopo il clic
             }, 3000); // 3000 millisecondi = 3 secondi
         }
     </script>
